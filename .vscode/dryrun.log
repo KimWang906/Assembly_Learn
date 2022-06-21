@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/kimwang0906/Desktop/P.Files/asm'
+nasm -f elf64 msg.asm -o msg1.o
+ld -o msg1 msg1.o
+./msg1
+make: Leaving directory '/home/kimwang0906/Desktop/P.Files/asm'
+ 
